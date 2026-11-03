@@ -1,0 +1,1 @@
+{"routes":[{"path":"/","title":"FairHarvest marketplace"},{"path":"/create-listing","title":"Create listing"},{"path":"/dashboard","title":"Farmer dashboard"},{"path":"/listings/:id","title":"Listing"},{"path":"/fair-price-index","title":"Fair Price Index"},{"path":"/receipt/:id","title":"Order receipt"},{"path":"/agent","title":"Auto-Restock Agent"}]}

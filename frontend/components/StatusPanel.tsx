@@ -1,0 +1,1 @@
+export function StatusPanel({ children, tone = "info" }: { children: React.ReactNode; tone?: "info" | "success" | "warn" }) { const styles = tone === "success" ? "border-leaf/20 bg-leaf/10 text-leaf" : tone === "warn" ? "border-sun/40 bg-sun/10 text-ink" : "border-ink/10 bg-white text-ink/70"; return <div className={`rounded-2xl border p-4 text-sm ${styles}`}>{children}</div>; }
