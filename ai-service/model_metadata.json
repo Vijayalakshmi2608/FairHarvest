@@ -1,0 +1,42 @@
+{
+  "model": "median_mad_percentile_band",
+  "black_box": false,
+  "minimum_data_points": 10,
+  "features": [
+    "completed sale prices",
+    "seasonality factor",
+    "explicit bounded weather_factor"
+  ],
+  "markets": [
+    {
+      "cropType": "wheat",
+      "grade": "A",
+      "region": "pilot",
+      "dataPoints": 36,
+      "median": 101.77,
+      "p10": 92.83500000000001,
+      "p90": 107.91499999999999,
+      "mad": 3.8800000000000026
+    },
+    {
+      "cropType": "wheat",
+      "grade": "B",
+      "region": "pilot",
+      "dataPoints": 36,
+      "median": 78.055,
+      "p10": 70.82,
+      "p90": 82.795,
+      "mad": 2.9350000000000023
+    },
+    {
+      "cropType": "maize",
+      "grade": "A",
+      "region": "pilot",
+      "dataPoints": 36,
+      "median": 96.625,
+      "p10": 89.50999999999999,
+      "p90": 103.785,
+      "mad": 4.725000000000001
+    }
+  ]
+}
